@@ -16,6 +16,9 @@
 		A653D89028D6656A000D3117 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D88F28D6656A000D3117 /* Constants.swift */; };
 		A653D89328D666A2000D3117 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D89228D666A2000D3117 /* ApiCall.swift */; };
 		A653D89628D66708000D3117 /* Vegetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D89528D66708000D3117 /* Vegetable.swift */; };
+		A653D89A28D66975000D3117 /* VegetableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D89928D66975000D3117 /* VegetableViewModel.swift */; };
+		A653D89D28D66B96000D3117 /* VegetableListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D89C28D66B96000D3117 /* VegetableListScreen.swift */; };
+		A653D89F28D66BE1000D3117 /* VegetableListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D89E28D66BE1000D3117 /* VegetableListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		A653D89228D666A2000D3117 /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
 		A653D89528D66708000D3117 /* Vegetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegetable.swift; sourceTree = "<group>"; };
 		A653D89728D668FE000D3117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A653D89928D66975000D3117 /* VegetableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableViewModel.swift; sourceTree = "<group>"; };
+		A653D89C28D66B96000D3117 /* VegetableListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableListScreen.swift; sourceTree = "<group>"; };
+		A653D89E28D66BE1000D3117 /* VegetableListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,8 @@
 		A653D87A28D6450F000D3117 /* IosApp */ = {
 			isa = PBXGroup;
 			children = (
+				A653D89B28D66B82000D3117 /* Screens */,
+				A653D89828D66960000D3117 /* ViewModels */,
 				A653D89728D668FE000D3117 /* Info.plist */,
 				A653D89428D666C2000D3117 /* Models */,
 				A653D89128D6668F000D3117 /* WebService */,
@@ -106,6 +114,23 @@
 				A653D89528D66708000D3117 /* Vegetable.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A653D89828D66960000D3117 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A653D89928D66975000D3117 /* VegetableViewModel.swift */,
+				A653D89E28D66BE1000D3117 /* VegetableListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A653D89B28D66B82000D3117 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A653D89C28D66B96000D3117 /* VegetableListScreen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,8 +207,11 @@
 				A653D88528D64512000D3117 /* Persistence.swift in Sources */,
 				A653D89628D66708000D3117 /* Vegetable.swift in Sources */,
 				A653D87E28D6450F000D3117 /* ContentView.swift in Sources */,
+				A653D89D28D66B96000D3117 /* VegetableListScreen.swift in Sources */,
 				A653D87C28D6450F000D3117 /* IosAppApp.swift in Sources */,
 				A653D89328D666A2000D3117 /* ApiCall.swift in Sources */,
+				A653D89A28D66975000D3117 /* VegetableViewModel.swift in Sources */,
+				A653D89F28D66BE1000D3117 /* VegetableListViewModel.swift in Sources */,
 				A653D88828D64512000D3117 /* IosApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

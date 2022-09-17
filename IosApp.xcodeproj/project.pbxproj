@@ -14,6 +14,8 @@
 		A653D88528D64512000D3117 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D88428D64512000D3117 /* Persistence.swift */; };
 		A653D88828D64512000D3117 /* IosApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A653D88628D64512000D3117 /* IosApp.xcdatamodeld */; };
 		A653D89028D6656A000D3117 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D88F28D6656A000D3117 /* Constants.swift */; };
+		A653D89328D666A2000D3117 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D89228D666A2000D3117 /* ApiCall.swift */; };
+		A653D89628D66708000D3117 /* Vegetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D89528D66708000D3117 /* Vegetable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,9 @@
 		A653D88428D64512000D3117 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A653D88728D64512000D3117 /* IosApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IosApp.xcdatamodel; sourceTree = "<group>"; };
 		A653D88F28D6656A000D3117 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A653D89228D666A2000D3117 /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		A653D89528D66708000D3117 /* Vegetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegetable.swift; sourceTree = "<group>"; };
+		A653D89728D668FE000D3117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,9 @@
 		A653D87A28D6450F000D3117 /* IosApp */ = {
 			isa = PBXGroup;
 			children = (
+				A653D89728D668FE000D3117 /* Info.plist */,
+				A653D89428D666C2000D3117 /* Models */,
+				A653D89128D6668F000D3117 /* WebService */,
 				A653D88E28D660A0000D3117 /* Utils */,
 				A653D87B28D6450F000D3117 /* IosAppApp.swift */,
 				A653D87D28D6450F000D3117 /* ContentView.swift */,
@@ -82,6 +90,22 @@
 				A653D88F28D6656A000D3117 /* Constants.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		A653D89128D6668F000D3117 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				A653D89228D666A2000D3117 /* ApiCall.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		A653D89428D666C2000D3117 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A653D89528D66708000D3117 /* Vegetable.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,8 +180,10 @@
 			files = (
 				A653D89028D6656A000D3117 /* Constants.swift in Sources */,
 				A653D88528D64512000D3117 /* Persistence.swift in Sources */,
+				A653D89628D66708000D3117 /* Vegetable.swift in Sources */,
 				A653D87E28D6450F000D3117 /* ContentView.swift in Sources */,
 				A653D87C28D6450F000D3117 /* IosAppApp.swift in Sources */,
+				A653D89328D666A2000D3117 /* ApiCall.swift in Sources */,
 				A653D88828D64512000D3117 /* IosApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +317,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IosApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IosApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -319,6 +346,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IosApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IosApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

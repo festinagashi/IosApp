@@ -13,6 +13,7 @@
 		A653D88328D64512000D3117 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A653D88228D64512000D3117 /* Preview Assets.xcassets */; };
 		A653D88528D64512000D3117 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D88428D64512000D3117 /* Persistence.swift */; };
 		A653D88828D64512000D3117 /* IosApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A653D88628D64512000D3117 /* IosApp.xcdatamodeld */; };
+		A653D89028D6656A000D3117 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D88F28D6656A000D3117 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A653D88228D64512000D3117 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A653D88428D64512000D3117 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A653D88728D64512000D3117 /* IosApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IosApp.xcdatamodel; sourceTree = "<group>"; };
+		A653D88F28D6656A000D3117 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		A653D87A28D6450F000D3117 /* IosApp */ = {
 			isa = PBXGroup;
 			children = (
+				A653D88E28D660A0000D3117 /* Utils */,
 				A653D87B28D6450F000D3117 /* IosAppApp.swift */,
 				A653D87D28D6450F000D3117 /* ContentView.swift */,
 				A653D87F28D64512000D3117 /* Assets.xcassets */,
@@ -71,6 +74,14 @@
 				A653D88228D64512000D3117 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A653D88E28D660A0000D3117 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A653D88F28D6656A000D3117 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A653D89028D6656A000D3117 /* Constants.swift in Sources */,
 				A653D88528D64512000D3117 /* Persistence.swift in Sources */,
 				A653D87E28D6450F000D3117 /* ContentView.swift in Sources */,
 				A653D87C28D6450F000D3117 /* IosAppApp.swift in Sources */,

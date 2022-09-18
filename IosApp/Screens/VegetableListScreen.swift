@@ -11,7 +11,7 @@ import SwiftUI
 
 struct VegetableListScreen: View {
     
-    @StateObject private var vegetableListVM = VegetableListViewModel()
+    @StateObject private var vegetableListVM = VegetableViewModel()
     
     var body: some View {
         VStack {
@@ -63,3 +63,4 @@ struct VegetableCell: View {
             .frame(maxWidth: .infinity)
     }
 }
+

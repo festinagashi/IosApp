@@ -15,16 +15,19 @@ enum NetworkError:Error{
 
 class ApiCall{
     
-    func getAllVegetables(url: URL?) async throws -> [Vegetable]{
-        guard let url = url else{
+    func getAllVegetables(url: URL?) async throws -> [VegetableDTO] {
+        
+        guard let url = url else {
             throw NetworkError.badUrl
         }
-       let(data,response) = try await URLSession.shared.data(from: url)
         
-        guard (response as? HTTPURLResponse)?.statusCode == 200 else{
+        let (data, response) = try await URLSession.shared.data(from: url)
+        
+        guard (response as? HTTPURLResponse)?.statusCode == 200 else {
             throw NetworkError.invalidRequest
         }
-        let vegetables = try? JSONDecoder().decode([Vegetable].self, from: data)
+        
+        let vegetables = try? JSONDecoder().decode([VegetableDTO].self, from: data)
         return vegetables ?? []
     }
     

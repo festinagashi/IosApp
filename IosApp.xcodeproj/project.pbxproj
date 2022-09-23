@@ -20,6 +20,7 @@
 		A653D8A628D66F08000D3117 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D8A528D66F08000D3117 /* ViewExtensions.swift */; };
 		A653D8AB28D67CC4000D3117 /* VegetableDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D8AA28D67CC4000D3117 /* VegetableDTO.swift */; };
 		A653D8AD28D79583000D3117 /* VegetableDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D8AC28D79583000D3117 /* VegetableDetailScreen.swift */; };
+		A6ECC40228DE4C7500ACE190 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC40128DE4C7400ACE190 /* MainScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		A653D8A528D66F08000D3117 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		A653D8AA28D67CC4000D3117 /* VegetableDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableDTO.swift; sourceTree = "<group>"; };
 		A653D8AC28D79583000D3117 /* VegetableDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableDetailScreen.swift; sourceTree = "<group>"; };
+		A6ECC40128DE4C7400ACE190 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				A653D89C28D66B96000D3117 /* VegetableListScreen.swift */,
 				A653D8A528D66F08000D3117 /* ViewExtensions.swift */,
 				A653D8AC28D79583000D3117 /* VegetableDetailScreen.swift */,
+				A6ECC40128DE4C7400ACE190 /* MainScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6ECC40228DE4C7500ACE190 /* MainScreen.swift in Sources */,
 				A653D89028D6656A000D3117 /* Constants.swift in Sources */,
 				A653D88528D64512000D3117 /* Persistence.swift in Sources */,
 				A653D8AB28D67CC4000D3117 /* VegetableDTO.swift in Sources */,

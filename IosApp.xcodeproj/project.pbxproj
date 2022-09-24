@@ -21,6 +21,9 @@
 		A653D8AB28D67CC4000D3117 /* VegetableDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D8AA28D67CC4000D3117 /* VegetableDTO.swift */; };
 		A653D8AD28D79583000D3117 /* VegetableDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D8AC28D79583000D3117 /* VegetableDetailScreen.swift */; };
 		A6ECC40428DE549A00ACE190 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC40328DE549A00ACE190 /* MainScreen.swift */; };
+		A6ECC40628DE607F00ACE190 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC40528DE607F00ACE190 /* AboutUs.swift */; };
+		A6ECC40828DE60CC00ACE190 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC40728DE60CC00ACE190 /* DescriptionView.swift */; };
+		A6ECC40A28DE616D00ACE190 /* ColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC40928DE616D00ACE190 /* ColumnView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		A653D8AA28D67CC4000D3117 /* VegetableDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableDTO.swift; sourceTree = "<group>"; };
 		A653D8AC28D79583000D3117 /* VegetableDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableDetailScreen.swift; sourceTree = "<group>"; };
 		A6ECC40328DE549A00ACE190 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		A6ECC40528DE607F00ACE190 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		A6ECC40728DE60CC00ACE190 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		A6ECC40928DE616D00ACE190 /* ColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,9 @@
 				A653D8A528D66F08000D3117 /* ViewExtensions.swift */,
 				A653D8AC28D79583000D3117 /* VegetableDetailScreen.swift */,
 				A6ECC40328DE549A00ACE190 /* MainScreen.swift */,
+				A6ECC40528DE607F00ACE190 /* AboutUs.swift */,
+				A6ECC40728DE60CC00ACE190 /* DescriptionView.swift */,
+				A6ECC40928DE616D00ACE190 /* ColumnView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -210,9 +219,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6ECC40428DE549A00ACE190 /* MainScreen.swift in Sources */,
+				A6ECC40828DE60CC00ACE190 /* DescriptionView.swift in Sources */,
+				A6ECC40628DE607F00ACE190 /* AboutUs.swift in Sources */,
 				A653D89028D6656A000D3117 /* Constants.swift in Sources */,
 				A653D88528D64512000D3117 /* Persistence.swift in Sources */,
 				A653D8AB28D67CC4000D3117 /* VegetableDTO.swift in Sources */,
+				A6ECC40A28DE616D00ACE190 /* ColumnView.swift in Sources */,
 				A653D89D28D66B96000D3117 /* VegetableListScreen.swift in Sources */,
 				A653D87C28D6450F000D3117 /* IosAppApp.swift in Sources */,
 				A653D89328D666A2000D3117 /* ApiCall.swift in Sources */,

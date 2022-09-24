@@ -42,7 +42,7 @@ struct VegetableDetailScreen: View {
                 
                 switch selection {
                     case .about:
-                       Text("AboutUs(vegetable: vegetable)")
+                       AboutUs(vegetable: vegetable)
                     case .companions:
                         Text("Companions")
                     case .problems:

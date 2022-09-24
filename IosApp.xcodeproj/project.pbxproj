@@ -24,6 +24,8 @@
 		A6ECC40628DE607F00ACE190 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC40528DE607F00ACE190 /* AboutUs.swift */; };
 		A6ECC40828DE60CC00ACE190 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC40728DE60CC00ACE190 /* DescriptionView.swift */; };
 		A6ECC40A28DE616D00ACE190 /* ColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC40928DE616D00ACE190 /* ColumnView.swift */; };
+		A6ECC41028DF0BF400ACE190 /* MyGardenModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC40E28DF0BF400ACE190 /* MyGardenModel.xcdatamodeld */; };
+		A6ECC41228DF0D9500ACE190 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC41128DF0D9500ACE190 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		A6ECC40528DE607F00ACE190 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 		A6ECC40728DE60CC00ACE190 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 		A6ECC40928DE616D00ACE190 /* ColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnView.swift; sourceTree = "<group>"; };
+		A6ECC40F28DF0BF400ACE190 /* MyGardenModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyGardenModel.xcdatamodel; sourceTree = "<group>"; };
+		A6ECC41128DF0D9500ACE190 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				A653D88428D64512000D3117 /* Persistence.swift */,
 				A653D88628D64512000D3117 /* IosApp.xcdatamodeld */,
 				A653D88128D64512000D3117 /* Preview Content */,
+				A6ECC40E28DF0BF400ACE190 /* MyGardenModel.xcdatamodeld */,
+				A6ECC41128DF0D9500ACE190 /* CoreDataManager.swift */,
 			);
 			path = IosApp;
 			sourceTree = "<group>";
@@ -222,12 +228,14 @@
 				A6ECC40828DE60CC00ACE190 /* DescriptionView.swift in Sources */,
 				A6ECC40628DE607F00ACE190 /* AboutUs.swift in Sources */,
 				A653D89028D6656A000D3117 /* Constants.swift in Sources */,
+				A6ECC41228DF0D9500ACE190 /* CoreDataManager.swift in Sources */,
 				A653D88528D64512000D3117 /* Persistence.swift in Sources */,
 				A653D8AB28D67CC4000D3117 /* VegetableDTO.swift in Sources */,
 				A6ECC40A28DE616D00ACE190 /* ColumnView.swift in Sources */,
 				A653D89D28D66B96000D3117 /* VegetableListScreen.swift in Sources */,
 				A653D87C28D6450F000D3117 /* IosAppApp.swift in Sources */,
 				A653D89328D666A2000D3117 /* ApiCall.swift in Sources */,
+				A6ECC41028DF0BF400ACE190 /* MyGardenModel.xcdatamodeld in Sources */,
 				A653D89A28D66975000D3117 /* VegetableViewModel.swift in Sources */,
 				A653D89F28D66BE1000D3117 /* VegetableListViewModel.swift in Sources */,
 				A653D8A628D66F08000D3117 /* ViewExtensions.swift in Sources */,
@@ -444,6 +452,16 @@
 			);
 			currentVersion = A653D88728D64512000D3117 /* IosApp.xcdatamodel */;
 			path = IosApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		A6ECC40E28DF0BF400ACE190 /* MyGardenModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6ECC40F28DF0BF400ACE190 /* MyGardenModel.xcdatamodel */,
+			);
+			currentVersion = A6ECC40F28DF0BF400ACE190 /* MyGardenModel.xcdatamodel */;
+			path = MyGardenModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

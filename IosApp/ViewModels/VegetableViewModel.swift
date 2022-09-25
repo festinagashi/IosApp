@@ -55,6 +55,32 @@ struct VegetableModel {
         var growingDescription: String {
             vegetable.growingDescription
         }
+    var harvestDescription:String{
+        vegetable.harvestDescription
+    }
+    
+    var badCompanions:String{
+        vegetable.badCompanions
+    }
+    
+    var season:String{
+        vegetable.season
+    }
+    
+    var goodCompanions:String{
+        vegetable.goodCompanions
+    }
+    
+    var daysToHarvestSeeds:Int{
+        vegetable.daysToHarvestSeeds
+    }
+    var light:String{
+        vegetable.light
+    }
+    var watering:String{
+        vegetable.watering
+        
+    }
     }
 
 
@@ -65,7 +91,7 @@ extension VegetableModel {
     
     static func `default`() -> VegetableModel {
         
-        let vegetable = VegetableDTO(vegetableId: 1, name: "Avocado", description: "The avocado is a tree native to Mexico and Central America. Avocados are commercially valuable and are cultivated in tropical and Mediterranean climates throughout the world. They have green-skinned, fleshy body that may be pear-shaped, egg-shaped or spherical", thumbnailImage: "http://www.highoncoding.com/vegetableimages/avocado.png", seedDepth: "1/2 below seed height", growingSoilTemp: "60-85F", sowingDescription: "Put a tooth pick in Avocado seem and suspend upside down in a glass of water. Make sure the glass gets direct sunlight. The roots will start to appear in 2-6 weeks. When the roots are thick then plant it in the rich soil.", growingDescription: "Avocado trees usually requires water 2-3 times per week. Put mulch around the trees to make sure that the moisture stays inside the soil. Nitrogen rich fertilizers can also be applied to the tree in batches of 1/2 - 1 pound.")
+        let vegetable = VegetableDTO(vegetableId: 1, name: "Avocado", description: "The avocado is a tree native to Mexico and Central America. Avocados are commercially valuable and are cultivated in tropical and Mediterranean climates throughout the world. They have green-skinned, fleshy body that may be pear-shaped, egg-shaped or spherical", thumbnailImage: "http://www.highoncoding.com/vegetableimages/avocado.png", seedDepth: "1/2 below seed height", growingSoilTemp: "60-85F", sowingDescription: "Put a tooth pick in Avocado seem and suspend upside down in a glass of water. Make sure the glass gets direct sunlight. The roots will start to appear in 2-6 weeks. When the roots are thick then plant it in the rich soil.", growingDescription: "Avocado trees usually requires water 2-3 times per week. Put mulch around the trees to make sure that the moisture stays inside the soil. Nitrogen rich fertilizers can also be applied to the tree in batches of 1/2 - 1 pound.", harvestDescription: "Harvest", badCompanions: "bad", season: "Spring,Summer,Winter", goodCompanions: "Bean, cabbage, chive", daysToHarvestSeeds: 90,light: "FullSun",watering: "EveryDay")
         
         return VegetableModel(vegetable: vegetable)
         

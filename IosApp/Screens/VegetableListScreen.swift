@@ -28,7 +28,7 @@ struct VegetableListScreen: View {
                 }.listRowSeparator(.hidden)
             }
             .listStyle(.plain)
-            .navigationTitle("Green Garden")
+            .navigationTitle("My Garden")
             .task {
                 await vegetableListVM.getAll()
             }
@@ -39,7 +39,7 @@ struct VegetableListScreen: View {
 struct VegetableListScreen_Previews: PreviewProvider {
     static var previews: some View {
         VegetableListScreen()
-            .navigationTitle("Green Garden")
+            .navigationTitle("My Garden")
             .embedInNavigationView()
     }
 }

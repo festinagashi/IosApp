@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MainScreen: View {
-    var body: some View {
+    var body: some View {			
         TabView {
             VegetableListScreen()
                 .toolbar {
@@ -19,21 +19,16 @@ struct MainScreen: View {
                 }
                 .embedInNavigationView()
                 .tabItem {
-                    Label("Home", systemImage: "house")
+                    Label("My Garden", systemImage: "house")
                 }
             
             Text("Second Page")
                 .embedInNavigationView()
                 .tabItem {
-                    Label("My Garden", systemImage: "leaf")
-                }
-            Text("Third Page")
-                .embedInNavigationView()
-                .tabItem {
-                    Label("My", systemImage: "leaf")
+                    Label("Favourites", systemImage: "leaf")
                 }
         }.accentColor(.teal)
-        .navigationTitle("Green Garden")
+        .navigationTitle("My Garden")
         
 
     }

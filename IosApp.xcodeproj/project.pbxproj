@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A620D19F28E08C9200BEF362 /* HarvestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620D19E28E08C9200BEF362 /* HarvestView.swift */; };
 		A653D87C28D6450F000D3117 /* IosAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D87B28D6450F000D3117 /* IosAppApp.swift */; };
-		A653D88028D64512000D3117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A653D87F28D64512000D3117 /* Assets.xcassets */; };
-		A653D88328D64512000D3117 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A653D88228D64512000D3117 /* Preview Assets.xcassets */; };
 		A653D88528D64512000D3117 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D88428D64512000D3117 /* Persistence.swift */; };
 		A653D88828D64512000D3117 /* IosApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A653D88628D64512000D3117 /* IosApp.xcdatamodeld */; };
 		A653D89028D6656A000D3117 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D88F28D6656A000D3117 /* Constants.swift */; };
@@ -20,15 +19,16 @@
 		A653D8A628D66F08000D3117 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D8A528D66F08000D3117 /* ViewExtensions.swift */; };
 		A653D8AB28D67CC4000D3117 /* VegetableDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D8AA28D67CC4000D3117 /* VegetableDTO.swift */; };
 		A653D8AD28D79583000D3117 /* VegetableDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653D8AC28D79583000D3117 /* VegetableDetailScreen.swift */; };
+		A6A8D18A28E09C9700C9370F /* GardenModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6A8D18828E09C9700C9370F /* GardenModel.xcdatamodeld */; };
 		A6ECC40428DE549A00ACE190 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC40328DE549A00ACE190 /* MainScreen.swift */; };
 		A6ECC40628DE607F00ACE190 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC40528DE607F00ACE190 /* AboutUs.swift */; };
 		A6ECC40828DE60CC00ACE190 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC40728DE60CC00ACE190 /* DescriptionView.swift */; };
 		A6ECC40A28DE616D00ACE190 /* ColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC40928DE616D00ACE190 /* ColumnView.swift */; };
-		A6ECC41028DF0BF400ACE190 /* MyGardenModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC40E28DF0BF400ACE190 /* MyGardenModel.xcdatamodeld */; };
 		A6ECC41228DF0D9500ACE190 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC41128DF0D9500ACE190 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A620D19E28E08C9200BEF362 /* HarvestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarvestView.swift; sourceTree = "<group>"; };
 		A653D87828D6450F000D3117 /* IosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A653D87B28D6450F000D3117 /* IosAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosAppApp.swift; sourceTree = "<group>"; };
 		A653D87F28D64512000D3117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,11 +44,11 @@
 		A653D8A528D66F08000D3117 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		A653D8AA28D67CC4000D3117 /* VegetableDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableDTO.swift; sourceTree = "<group>"; };
 		A653D8AC28D79583000D3117 /* VegetableDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableDetailScreen.swift; sourceTree = "<group>"; };
+		A6A8D18928E09C9700C9370F /* GardenModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GardenModel.xcdatamodel; sourceTree = "<group>"; };
 		A6ECC40328DE549A00ACE190 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		A6ECC40528DE607F00ACE190 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 		A6ECC40728DE60CC00ACE190 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 		A6ECC40928DE616D00ACE190 /* ColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnView.swift; sourceTree = "<group>"; };
-		A6ECC40F28DF0BF400ACE190 /* MyGardenModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyGardenModel.xcdatamodel; sourceTree = "<group>"; };
 		A6ECC41128DF0D9500ACE190 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,8 +93,8 @@
 				A653D88428D64512000D3117 /* Persistence.swift */,
 				A653D88628D64512000D3117 /* IosApp.xcdatamodeld */,
 				A653D88128D64512000D3117 /* Preview Content */,
-				A6ECC40E28DF0BF400ACE190 /* MyGardenModel.xcdatamodeld */,
 				A6ECC41128DF0D9500ACE190 /* CoreDataManager.swift */,
+				A6A8D18828E09C9700C9370F /* GardenModel.xcdatamodeld */,
 			);
 			path = IosApp;
 			sourceTree = "<group>";
@@ -142,6 +142,7 @@
 				A6ECC40528DE607F00ACE190 /* AboutUs.swift */,
 				A6ECC40728DE60CC00ACE190 /* DescriptionView.swift */,
 				A6ECC40928DE616D00ACE190 /* ColumnView.swift */,
+				A620D19E28E08C9200BEF362 /* HarvestView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -212,8 +213,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A653D88328D64512000D3117 /* Preview Assets.xcassets in Resources */,
-				A653D88028D64512000D3117 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A620D19F28E08C9200BEF362 /* HarvestView.swift in Sources */,
+				A6A8D18A28E09C9700C9370F /* GardenModel.xcdatamodeld in Sources */,
 				A6ECC40428DE549A00ACE190 /* MainScreen.swift in Sources */,
 				A6ECC40828DE60CC00ACE190 /* DescriptionView.swift in Sources */,
 				A6ECC40628DE607F00ACE190 /* AboutUs.swift in Sources */,
@@ -235,7 +236,6 @@
 				A653D89D28D66B96000D3117 /* VegetableListScreen.swift in Sources */,
 				A653D87C28D6450F000D3117 /* IosAppApp.swift in Sources */,
 				A653D89328D666A2000D3117 /* ApiCall.swift in Sources */,
-				A6ECC41028DF0BF400ACE190 /* MyGardenModel.xcdatamodeld in Sources */,
 				A653D89A28D66975000D3117 /* VegetableViewModel.swift in Sources */,
 				A653D89F28D66BE1000D3117 /* VegetableListViewModel.swift in Sources */,
 				A653D8A628D66F08000D3117 /* ViewExtensions.swift in Sources */,
@@ -455,13 +455,13 @@
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
-		A6ECC40E28DF0BF400ACE190 /* MyGardenModel.xcdatamodeld */ = {
+		A6A8D18828E09C9700C9370F /* GardenModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A6ECC40F28DF0BF400ACE190 /* MyGardenModel.xcdatamodel */,
+				A6A8D18928E09C9700C9370F /* GardenModel.xcdatamodel */,
 			);
-			currentVersion = A6ECC40F28DF0BF400ACE190 /* MyGardenModel.xcdatamodel */;
-			path = MyGardenModel.xcdatamodeld;
+			currentVersion = A6A8D18928E09C9700C9370F /* GardenModel.xcdatamodel */;
+			path = GardenModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

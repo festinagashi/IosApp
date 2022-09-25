@@ -16,7 +16,7 @@ class CoreDataManager {
     static let shared = CoreDataManager()
     
     private init() {
-        persistentContainer = NSPersistentContainer(name: "MyGardenModel")
+        persistentContainer = NSPersistentContainer(name: "GardenModel")
         persistentContainer.loadPersistentStores { description, error in
             if let error = error {
                 fatalError("Failed to initialize Core Data \(error)")
@@ -33,7 +33,7 @@ class CoreDataManager {
     
     var backgroundContext: NSManagedObjectContext {
            return persistentContainer.newBackgroundContext()
-    }
+    }		
     
     func save() throws {
         do {
@@ -75,6 +75,13 @@ class CoreDataManager {
                 vegetable.growingSoilTemp = vegetableDTO.growingSoilTemp
                 vegetable.sowingDescription = vegetableDTO.sowingDescription
                 vegetable.growingDescription = vegetableDTO.growingDescription
+                vegetable.badCompanions = vegetableDTO.badCompanions
+                vegetable.goodCompanions = vegetableDTO.goodCompanions
+                vegetable.season = vegetableDTO.season
+                vegetable.daysToHarvestSeeds = Int32(vegetableDTO.daysToHarvestSeeds)
+                vegetable.light = vegetableDTO.light
+                vegetable.watering = vegetableDTO.watering
+                
                 try self.save()
             }
             

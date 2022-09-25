@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 enum VegetableInfoOptions: CaseIterable {
     case about
-    case companions
+    case harvest
     case problems
 }
 extension VegetableInfoOptions {
@@ -17,7 +17,7 @@ extension VegetableInfoOptions {
     var title: String {
         switch self {
             case .about: return "About"
-            case .companions: return "Companions"
+            case .harvest: return "Harvest"
             case .problems: return "Problems"
         }
     }
@@ -43,8 +43,8 @@ struct VegetableDetailScreen: View {
                 switch selection {
                     case .about:
                        AboutUs(vegetable: vegetable)
-                    case .companions:
-                        Text("Companions")
+                    case .harvest:
+                        HarvestView(vegetable: vegetable)
                     case .problems:
                         Text("Problems")
                 }
